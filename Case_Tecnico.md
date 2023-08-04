@@ -19,5 +19,5 @@ SELECT * FROM users_emails WHERE data_cadastro >= DATE_SUB(NOW(), INTERVAL 30 DA
   Neste trecho do código estamos criando uma condição específica para a busca no qual será usuários que a coluna [data_cadastro] será maior 
   ou igual a 30 dias.
 #### DATE_SUB(NOW(), INTERVAL 30 DAY)
-  No final do código iremos utilizar a função [DATE_SUB] no qual irá subtrair um intervalo específico de tempo, para isso é necessário 2      argumentos, o primerio argumento [NOW()] é uma função que retorna a data e hora atual, enquanto o segundo argumento [INTERVAL 30 DAY]       esta sendo utilizado para retirar 30 dias do primeiro argumento.
+  No final do código iremos utilizar a função [DATE_SUB]() no qual irá subtrair um intervalo específico de tempo, para isso é necessário 2    argumentos, o primerio argumento [NOW()]() é uma função que retorna a data e hora atual, enquanto o segundo argumento [INTERVAL 30 DAY]()   esta sendo utilizado para retirar 30 dias do primeiro argumento.
   
