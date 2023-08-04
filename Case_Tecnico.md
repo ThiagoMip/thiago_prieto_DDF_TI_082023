@@ -14,7 +14,7 @@ SELECT * FROM users_emails WHERE data_cadastro >= DATE_SUB(NOW(), INTERVAL 30 DA
 ```
 
 #### SELECT * FROM users_emails
-* Nesta parte do código selecionaremos todas os campos presentes dentro da tabela [users_emails]
+* Nesta parte do código selecionaremos todas os campos presentes dentro da tabela [users_emails]()
 #### WHERE data_cadastro >=
 * Neste trecho do código estamos criando uma condição específica para a busca no qual será usuários que a coluna [data_cadastro] será maior   ou igual a 30 dias.
 #### DATE_SUB(NOW(), INTERVAL 30 DAY)
